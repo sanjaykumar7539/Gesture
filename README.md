@@ -25,3 +25,25 @@ Gestures:
 No MediaPipe, TensorFlow, or Keras is required.
 
 For best results use good lighting and a plain background.
+
+Webcam
+ ↓
+OpenCV
+ ↓
+Face Detection ─────→ Face box
+ ↓
+RGB Conversion
+ ↓
+MediaPipe Hands
+ ↓
+21 Hand Landmarks
+ ↓
+Angles + Distances
+ ↓
+Finger OPEN/CLOSED
+ ↓
+Finger Count
+ ↓
+Gesture Name
+ ↓
+Output
